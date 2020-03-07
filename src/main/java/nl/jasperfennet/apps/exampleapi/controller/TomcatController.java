@@ -9,6 +9,6 @@ public class TomcatController {
 
     @GetMapping("/")
     public String exampelMessage(){
-        return "Example message after succesfull jenkins build";
+        return "Example message after succesfull jenkins build from api.jasperfennet.nl";
     }
 }
